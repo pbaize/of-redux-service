@@ -1,0 +1,34 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve -p 9000 dist",
+    "dev": "webpack --watch --mode development",
+    "build": "webpack --mode development",
+    "launch": "concurrently \"npm run serve\" \"sleep 2 && openfin -l -c http://localhost:9000/standard-service.json\" \"sleep 2 && openfin -l -c http://localhost:9000/standard-client.json\"",
+    "demo": "npm run build && npm run launch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^7.1.2",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "react-hot-loader": "^3.1.3",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.10"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "concurrently": "^3.5.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "redux": "^4.0.0",
+    "serve": "^6.5.5"
+  }
+}

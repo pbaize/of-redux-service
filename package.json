@@ -1,16 +1,15 @@
 {
-  "name": "redux-service",
-  "version": "1.0.0",
+  "name": "openfin-redux-service-creator",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Pierre Baize",
   "license": "ISC",
   "dependencies": {
-    "ramda": "^0.25.0",
-    "redux": "^3.7.2"
+    "ramda": "^0.25.0"
   }
 }

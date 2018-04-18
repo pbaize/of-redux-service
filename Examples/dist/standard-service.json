@@ -1,0 +1,14 @@
+{
+    "startup_app": {
+        "name": "standard-service",
+        "url": "http://localhost:9000/standard-service.html",
+        "uuid": "standard-service",
+        "applicationIcon": "http://localhost:9000/favicon.ico",
+        "autoShow": true,
+        "saveWindowState": false
+    },
+    "runtime": {
+        "arguments": "--remote-debugging-port=9090",
+        "version": "alpha"
+    }
+}
