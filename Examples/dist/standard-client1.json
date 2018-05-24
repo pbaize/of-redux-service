@@ -1,8 +1,8 @@
 {
     "startup_app": {
-        "name": "standard-client",
-        "url": "http://localhost:9000/standard-client.html",
-        "uuid": "standard-client",
+        "name": "standard-client1",
+        "url": "http://localhost:9000/standard-client2.html",
+        "uuid": "standard-client1",
         "applicationIcon": "http://localhost:9000/favicon.ico",
         "autoShow": true,
         "saveWindowState": false
