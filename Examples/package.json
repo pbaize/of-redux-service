@@ -8,7 +8,7 @@
     "serve": "serve -p 9000 dist",
     "dev": "webpack --watch --mode development",
     "build": "webpack --mode development",
-    "launch": "concurrently \"npm run serve\" \"sleep 2 && openfin -l -c http://localhost:9000/standard-service.json\" \"sleep 2 && openfin -l -c http://localhost:9000/standard-client.json\"",
+    "launch": "concurrently \"npm run serve\" \"sleep 4 && openfin -l -c http://localhost:9000/standard-service.json\" \"sleep 5 && openfin -l -c http://localhost:9000/standard-client1.json\" \"sleep 5 && openfin -l -c http://localhost:9000/standard-client2.json\"",
     "demo": "npm run build && npm run launch"
   },
   "keywords": [],
